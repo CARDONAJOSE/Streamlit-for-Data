@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 import app as app
+import logging
 
 st.subheader("Graphiques de data frame")
 # Charger les données Iris
@@ -57,10 +58,10 @@ def plot_all_numerique(df):
 
 if st.button("Afficher les graphiques des données non numériques"):
     plot_all_numerique(st.session_state.data_numeric)
+    logging.info("Bouton 'Afficher graphiques' a été cliqué.")
 
 colonnes_disponibles = list(st.session_state.data_numeric.columns)
-colonnes_select = st.multiselect(
-    "Sélectionnez les colonnes à afficher",
+colonnes_select = st.multiselect("Sélectionnez les colonnes à afficher",
     colonnes_disponibles,
     default=[]
 )
@@ -69,8 +70,10 @@ if st.button("Supprimer les colonnes"):
     if colonnes_disponibles:
         st.session_state.data_numeric.drop(colonnes_select, axis='columns', inplace=True)
         st.success(f"Les colonnes {list(colonnes_select)} ont été supprimées avec succès!")
+        logging.info("Bouton 'Supprimer les colonnes' a été cliqué.")
     else:
         st.warning("Aucune colonne sélectionnée pour la suppression.")
+        logging.error("Les DataFrames à concaténer n'existent pas.")
 
     st.write("Nouveau dataframe :", st.session_state.data_numeric.shape)
     st.dataframe(st.session_state.data_numeric)

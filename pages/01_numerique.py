@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
 import numpy as np
 import app as app
+import logging
 
 st.subheader("Imputation de valeurs du tableau numerique")
 st.write("1. Les colonnes numeriques")
@@ -28,6 +29,7 @@ with col1:
                            strategy = 'mean')
         imputation.fit(st.session_state.data_numeric)
         st.session_state.data_numeric.loc[:, :] = imputation.transform(st.session_state.data_numeric)
+        logging.info("Bouton 'Imputation pour moyenne' a été cliqué.")
 
 with col2: 
     if st.button("Imputation des colonnes avec la mediane"):
@@ -35,6 +37,7 @@ with col2:
                            strategy = 'median')
         imputation.fit(st.session_state.data_numeric)
         st.session_state.data_numeric.loc[:, :] = imputation.transform(st.session_state.data_numeric)
+        logging.info("Bouton 'Imputation pour la Mediane' a été cliqué.")
 
 st.dataframe(st.session_state.data_numeric.head(5))
 
