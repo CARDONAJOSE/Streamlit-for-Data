@@ -10,8 +10,8 @@ import logging
 st.subheader("Imputation de valeurs du tableau non numerique")
 st.write("1. Les colonnes non numeriques")
 
-if 'data_non_numeric' not in st.session_state:
-    st.session_state.data_non_numeric = app.data_non_numeric.select_dtypes(include=[object]).copy()
+# if 'data_non_numeric' not in st.session_state:
+#     st.session_state.data_non_numeric = app.data_non_numeric.select_dtypes(include=[object]).copy()
 
 #columns numeriques
 

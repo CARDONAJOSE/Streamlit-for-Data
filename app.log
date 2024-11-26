@@ -25,3 +25,9 @@
 2024-11-26 16:01:52,541 - INFO - Bouton 'Imputation des colonnes non numeriques' a été cliqué.
 2024-11-26 16:01:52,812 - INFO - Bouton 'Imputation des colonnes non numeriques' a été cliqué.
 2024-11-26 16:03:01,085 - INFO - Bouton 'Afficher graphiques' a été cliqué.
+2024-11-26 16:46:29,558 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 16:48:40,360 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 16:54:01,087 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-26 16:54:09,075 - INFO - Bouton 'Imputation pour moyenne' a été cliqué.
+2024-11-26 17:12:23,480 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-26 17:13:32,552 - ERROR - Les DataFrames à concaténer n'existent pas.
