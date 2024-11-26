@@ -1,0 +1,27 @@
+2024-11-25 22:39:26,464 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-25 22:39:30,072 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-25 22:39:30,557 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-25 22:42:29,049 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-25 22:45:25,014 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-25 22:45:28,732 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-25 22:45:29,183 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-25 22:48:39,782 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-25 22:48:53,993 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-25 22:48:57,777 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-25 22:48:58,331 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-26 15:16:02,404 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 15:40:34,987 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 15:41:34,522 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 15:44:10,665 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-26 15:46:43,874 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 15:47:16,836 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 15:47:22,821 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 15:47:23,313 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-26 15:57:20,065 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 15:57:23,977 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-26 15:57:24,566 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-26 16:01:27,944 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-26 16:01:38,102 - INFO - Bouton 'Imputation pour moyenne' a été cliqué.
+2024-11-26 16:01:52,541 - INFO - Bouton 'Imputation des colonnes non numeriques' a été cliqué.
+2024-11-26 16:01:52,812 - INFO - Bouton 'Imputation des colonnes non numeriques' a été cliqué.
+2024-11-26 16:03:01,085 - INFO - Bouton 'Afficher graphiques' a été cliqué.

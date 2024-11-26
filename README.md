@@ -1,4 +1,12 @@
 # ** DATA ANALYST **
+**Structure de l'Application**
+
+/mon_application
+    ├── app.py
+    ├── pages
+    │   ├── 01_numerique.py
+    │   ├── 02_not_numerique.py
+    │   └── 03_autre_page.py
 
 **Objectifs pédagogiques**
 
