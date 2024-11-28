@@ -23,13 +23,15 @@ Ce projet est une application web interactive développée avec Streamlit, perme
 ```bash
 /mon_application
     ├── app.py # Fichier principal de l'application Streamlit
-    ├── pages # Dossier contenant les pages supplémentaires de l'application
+    ├── pages/ # Dossier contenant les pages supplémentaires de l'application
     │   ├── 01_numerique.py  # Page pour l'analyse des données numériques
     │   ├── 02_not_numerique.py  # Page pour l'analyse des données non numériques
     │   ├── 03_autre_page.py  # Autres pages d'analyse ou fonctionnalités supplémentaires
     │   └── 04_concatenation.py  # Page pour la concaténation de plusieurs DataFrames
-    |    
-    ├── tests
+    ├── assets/
+    |   ├── images/                  # images du projet
+    │   └── streamlit_for_data.png
+    ├── tests/
     ├── requirements.txt
     ├── .gitignore
     ├── app.log

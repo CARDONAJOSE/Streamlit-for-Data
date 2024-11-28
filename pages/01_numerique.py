@@ -10,20 +10,34 @@ import logging
 st.subheader("Imputation de valeurs du tableau numerique")
 st.write("1. Les colonnes numeriques")
 
-# data_numeric=app.data_numeric
-# if 'data_numeric' not in st.session_state:
-#     st.session_state.data_numeric = data_numeric.select_dtypes(include=[np.number])
+# Vérifier si les données sont dans session_state
+def numerique():
+    if 'data' in st.session_state and st.session_state.data is not None:
+        data = st.session_state.data
+        logging.info("Accès aux données numériques.")
+        st.subheader("Analyse des Données Numériques")
+    # Afficher les 5 premières lignes des données numériques
+    else:
+        st.info("Aucune donnée chargée. Veuillez charger un fichier CSV dans la page principale.")
+    return
+
+numerique()
+
+st.session_state.data_numeric=st.session_state.data.select_dtypes(include=[np.number])
+#data_numeric=app.data_numeric
 
 #columns numeriques
 
-st.dataframe(st.session_state.data_numeric.head(5))
-st.write("Dataframe avec les colonnes numeriques:", st.session_state.data_numeric.shape)
+def head_data():
+    return st.dataframe(st.session_state.data_numeric.head(5))
 
+head_data()
+#st.dataframe(st.session_state.data_numeric.head(5))
+st.write("Dataframe avec les colonnes numeriques:", st.session_state.data_numeric.shape)
 st.subheader("Les valeurs nulls presente dans le dataframe")
 st.write("nombre de valeurs nulls par colonne",st.session_state.data_numeric.isnull().sum())
 
-col1, col2 = st.columns(2)
-with col1:
+def imputation_moyenne():
     if st.button("Imputation des colonnes avec la moyenne"):
         imputation = SimpleImputer(missing_values = np.nan, 
                            strategy = 'mean')
@@ -31,7 +45,7 @@ with col1:
         st.session_state.data_numeric.loc[:, :] = imputation.transform(st.session_state.data_numeric)
         logging.info("Bouton 'Imputation pour moyenne' a été cliqué.")
 
-with col2: 
+def imputation_mediane():
     if st.button("Imputation des colonnes avec la mediane"):
         imputation = SimpleImputer(missing_values = np.nan, 
                            strategy = 'median')
@@ -39,7 +53,13 @@ with col2:
         st.session_state.data_numeric.loc[:, :] = imputation.transform(st.session_state.data_numeric)
         logging.info("Bouton 'Imputation pour la Mediane' a été cliqué.")
 
-st.dataframe(st.session_state.data_numeric.head(5))
+col1, col2 = st.columns(2)
+with col1:
+    imputation_moyenne()
 
+with col2:
+    imputation_mediane() 
+
+head_data()
 st.subheader("Vérification des valeurs nulls")
 st.write("nombre de valeurs nulls par colonne",st.session_state.data_numeric.isnull().sum())

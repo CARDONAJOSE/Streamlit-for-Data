@@ -31,3 +31,203 @@
 2024-11-26 16:54:09,075 - INFO - Bouton 'Imputation pour moyenne' a été cliqué.
 2024-11-26 17:12:23,480 - ERROR - Les DataFrames à concaténer n'existent pas.
 2024-11-26 17:13:32,552 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 09:50:40,172 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 09:51:07,951 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 13:34:12,879 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 13:34:25,184 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 13:34:25,544 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-27 13:34:36,562 - INFO - Bouton 'Imputation pour moyenne' a été cliqué.
+2024-11-27 13:34:45,309 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 13:34:51,341 - INFO - Bouton 'Concatener' a été cliqué.
+2024-11-27 13:34:51,350 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 13:34:58,174 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 13:34:58,184 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 13:35:17,573 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 13:35:22,215 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 13:35:22,601 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-27 13:35:27,558 - INFO - Bouton 'Imputation pour moyenne' a été cliqué.
+2024-11-27 13:35:33,890 - INFO - Bouton 'Imputation des colonnes non numeriques' a été cliqué.
+2024-11-27 13:35:39,511 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 13:48:13,627 - INFO - Accès aux données numériques.
+2024-11-27 13:52:09,259 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 13:52:12,841 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 13:52:13,183 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-27 13:52:14,138 - INFO - Accès aux données numériques.
+2024-11-27 13:52:18,540 - INFO - Accès aux données numériques.
+2024-11-27 13:52:18,571 - INFO - Bouton 'Imputation pour moyenne' a été cliqué.
+2024-11-27 13:52:20,473 - INFO - Accès aux données numériques.
+2024-11-27 13:52:24,537 - INFO - Accès aux données numériques.
+2024-11-27 13:52:24,568 - INFO - Bouton 'Imputation des colonnes non numeriques' a été cliqué.
+2024-11-27 13:52:26,742 - INFO - Accès aux données numériques.
+2024-11-27 13:52:31,693 - INFO - Accès aux données numériques.
+2024-11-27 13:52:35,657 - INFO - Accès aux données numériques.
+2024-11-27 13:52:35,676 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 13:54:11,003 - INFO - Accès aux données numériques.
+2024-11-27 13:54:11,784 - INFO - Accès aux données numériques.
+2024-11-27 13:54:11,806 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 13:54:37,572 - INFO - Accès aux données numériques.
+2024-11-27 13:54:38,234 - INFO - Accès aux données numériques.
+2024-11-27 13:54:38,256 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 14:08:36,667 - INFO - Accès aux données numériques.
+2024-11-27 14:08:38,043 - INFO - Accès aux données numériques.
+2024-11-27 14:08:40,244 - INFO - Accès aux données numériques.
+2024-11-27 14:08:40,283 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 14:09:19,711 - INFO - Accès aux données numériques.
+2024-11-27 14:09:21,976 - INFO - Accès aux données numériques.
+2024-11-27 14:09:23,959 - INFO - Accès aux données numériques.
+2024-11-27 14:10:03,973 - INFO - Accès aux données numériques.
+2024-11-27 14:10:03,990 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 14:15:28,196 - INFO - Accès aux données numériques.
+2024-11-27 14:15:32,089 - INFO - Accès aux données numériques.
+2024-11-27 14:15:32,108 - ERROR - Les DataFrames à concaténer n'existent pas.
+2024-11-27 14:20:25,770 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 14:20:31,270 - INFO - Accès aux données numériques.
+2024-11-27 14:20:34,531 - INFO - Accès aux données numériques.
+2024-11-27 14:20:34,553 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 14:21:36,571 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-27 14:21:37,568 - INFO - Accès aux données numériques.
+2024-11-27 14:21:39,774 - INFO - Accès aux données numériques.
+2024-11-27 14:21:39,806 - INFO - Bouton 'Imputation pour moyenne' a été cliqué.
+2024-11-27 14:21:42,762 - INFO - Accès aux données numériques.
+2024-11-27 14:21:45,830 - INFO - Accès aux données numériques.
+2024-11-27 14:21:45,857 - INFO - Bouton 'Imputation des colonnes non numeriques' a été cliqué.
+2024-11-27 14:21:47,918 - INFO - Accès aux données numériques.
+2024-11-27 14:21:52,923 - INFO - Accès aux données numériques.
+2024-11-27 14:21:52,942 - INFO - Bouton 'Supprimer les colonnes' a été cliqué.
+2024-11-27 14:21:54,759 - INFO - Accès aux données numériques.
+2024-11-27 14:21:54,785 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 14:24:50,827 - INFO - Accès aux données numériques.
+2024-11-27 14:24:50,851 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 14:24:56,115 - INFO - Accès aux données numériques.
+2024-11-27 14:24:57,172 - INFO - Accès aux données numériques.
+2024-11-27 14:24:58,791 - INFO - Accès aux données numériques.
+2024-11-27 14:24:58,813 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 14:25:54,862 - INFO - Accès aux données numériques.
+2024-11-27 15:12:21,165 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 15:12:24,633 - INFO - Accès aux données numériques.
+2024-11-27 15:12:25,735 - INFO - Accès aux données numériques.
+2024-11-27 15:13:52,483 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 15:13:55,930 - INFO - Accès aux données numériques.
+2024-11-27 15:20:36,803 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 15:33:50,158 - INFO - Accès aux données numériques.
+2024-11-27 15:38:25,384 - INFO - Accès aux données numériques.
+2024-11-27 15:39:13,332 - INFO - Accès aux données numériques.
+2024-11-27 15:39:34,693 - INFO - Accès aux données numériques.
+2024-11-27 15:44:34,462 - INFO - Accès aux données numériques.
+2024-11-27 15:44:35,463 - INFO - Accès aux données numériques.
+2024-11-27 15:54:19,020 - INFO - Accès aux données numériques.
+2024-11-27 15:54:20,288 - INFO - Accès aux données numériques.
+2024-11-27 15:57:27,310 - INFO - Accès aux données numériques.
+2024-11-27 15:57:28,195 - INFO - Accès aux données numériques.
+2024-11-27 15:57:51,354 - INFO - Accès aux données numériques.
+2024-11-27 15:57:53,729 - INFO - Accès aux données numériques.
+2024-11-27 15:57:55,015 - INFO - Accès aux données numériques.
+2024-11-27 17:01:20,136 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 17:06:10,017 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 17:08:12,725 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 17:09:06,123 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 17:33:17,628 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 17:33:17,923 - INFO - Bouton 'supprimer les colonnes' a été cliqué.
+2024-11-27 17:33:23,073 - INFO - Accès aux données numériques.
+2024-11-27 17:34:32,489 - INFO - Accès aux données numériques.
+2024-11-27 17:34:34,136 - INFO - Accès aux données numériques.
+2024-11-27 17:34:34,950 - INFO - Accès aux données numériques.
+2024-11-27 17:34:36,182 - INFO - Accès aux données numériques.
+2024-11-27 17:34:36,933 - INFO - Accès aux données numériques.
+2024-11-27 17:34:41,346 - INFO - Accès aux données numériques.
+2024-11-27 17:34:45,104 - INFO - Accès aux données numériques.
+2024-11-27 17:34:48,060 - INFO - Accès aux données numériques.
+2024-11-27 17:34:52,824 - INFO - Accès aux données numériques.
+2024-11-27 17:34:52,871 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 17:38:56,415 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 17:38:58,906 - INFO - Accès aux données numériques.
+2024-11-27 17:39:01,607 - INFO - Accès aux données numériques.
+2024-11-27 17:39:04,071 - INFO - Accès aux données numériques.
+2024-11-27 17:39:05,566 - INFO - Accès aux données numériques.
+2024-11-27 17:39:05,585 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 17:39:30,750 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-27 17:39:33,221 - INFO - Accès aux données numériques.
+2024-11-27 17:39:37,732 - INFO - Accès aux données numériques.
+2024-11-27 17:39:42,306 - INFO - Accès aux données numériques.
+2024-11-27 17:39:48,903 - INFO - Accès aux données numériques.
+2024-11-27 17:39:50,441 - INFO - Accès aux données numériques.
+2024-11-27 17:40:34,522 - INFO - Accès aux données numériques.
+2024-11-27 17:40:36,572 - INFO - Accès aux données numériques.
+2024-11-27 17:40:38,393 - INFO - Accès aux données numériques.
+2024-11-27 17:40:41,987 - INFO - Accès aux données numériques.
+2024-11-27 17:40:45,886 - INFO - Accès aux données numériques.
+2024-11-27 17:40:51,213 - INFO - Accès aux données numériques.
+2024-11-27 17:47:22,398 - INFO - Accès aux données numériques.
+2024-11-27 17:47:29,847 - INFO - Accès aux données numériques.
+2024-11-27 17:47:32,057 - INFO - Accès aux données numériques.
+2024-11-27 17:48:08,651 - INFO - Accès aux données numériques.
+2024-11-27 17:49:13,321 - INFO - Accès aux données numériques.
+2024-11-27 17:49:15,793 - INFO - Accès aux données numériques.
+2024-11-27 17:49:20,018 - INFO - Accès aux données numériques.
+2024-11-27 17:49:21,229 - INFO - Accès aux données numériques.
+2024-11-27 17:50:25,780 - INFO - Accès aux données numériques.
+2024-11-27 17:50:46,820 - INFO - Accès aux données numériques.
+2024-11-27 17:52:10,671 - INFO - Accès aux données numériques.
+2024-11-27 17:52:12,334 - INFO - Accès aux données numériques.
+2024-11-27 17:52:14,518 - INFO - Accès aux données numériques.
+2024-11-27 17:52:15,550 - INFO - Accès aux données numériques.
+2024-11-27 17:52:15,576 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-27 17:52:47,002 - INFO - Accès aux données numériques.
+2024-11-27 18:09:37,674 - INFO - Accès aux données numériques.
+2024-11-27 18:09:38,674 - INFO - Accès aux données numériques.
+2024-11-28 08:41:51,094 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-28 08:41:52,949 - INFO - Accès aux données numériques.
+2024-11-28 08:41:53,457 - INFO - Accès aux données numériques.
+2024-11-28 08:41:54,899 - INFO - Accès aux données numériques.
+2024-11-28 08:42:04,458 - INFO - Accès aux données numériques.
+2024-11-28 08:42:09,481 - INFO - Accès aux données numériques.
+2024-11-28 08:42:10,873 - INFO - Accès aux données numériques.
+2024-11-28 08:42:15,007 - INFO - Accès aux données numériques.
+2024-11-28 08:42:15,035 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-28 08:42:19,751 - INFO - Accès aux données numériques.
+2024-11-28 09:57:59,136 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-28 09:58:16,369 - INFO - Accès aux données numériques.
+2024-11-28 09:58:22,279 - INFO - Accès aux données numériques.
+2024-11-28 09:58:23,303 - INFO - Accès aux données numériques.
+2024-11-28 09:58:24,449 - INFO - Accès aux données numériques.
+2024-11-28 09:58:25,999 - INFO - Accès aux données numériques.
+2024-11-28 09:58:30,069 - INFO - Accès aux données numériques.
+2024-11-28 09:58:43,459 - INFO - Accès aux données numériques.
+2024-11-28 09:58:45,834 - INFO - Accès aux données numériques.
+2024-11-28 09:58:46,528 - INFO - Accès aux données numériques.
+2024-11-28 09:58:47,469 - INFO - Accès aux données numériques.
+2024-11-28 09:58:48,451 - INFO - Accès aux données numériques.
+2024-11-28 09:59:27,118 - INFO - Accès aux données numériques.
+2024-11-28 09:59:28,969 - INFO - Accès aux données numériques.
+2024-11-28 09:59:29,998 - INFO - Accès aux données numériques.
+2024-11-28 09:59:30,818 - INFO - Accès aux données numériques.
+2024-11-28 09:59:31,798 - INFO - Accès aux données numériques.
+2024-11-28 09:59:39,423 - INFO - Accès aux données numériques.
+2024-11-28 09:59:40,168 - INFO - Accès aux données numériques.
+2024-11-28 09:59:42,278 - INFO - Accès aux données numériques.
+2024-11-28 09:59:43,372 - INFO - Accès aux données numériques.
+2024-11-28 09:59:44,288 - INFO - Accès aux données numériques.
+2024-11-28 09:59:44,978 - INFO - Accès aux données numériques.
+2024-11-28 10:00:08,918 - INFO - Accès aux données numériques.
+2024-11-28 10:00:10,603 - INFO - Accès aux données numériques.
+2024-11-28 10:00:46,878 - INFO - Accès aux données numériques.
+2024-11-28 10:00:48,413 - INFO - Accès aux données numériques.
+2024-11-28 10:00:56,338 - INFO - Accès aux données numériques.
+2024-11-28 10:00:57,028 - INFO - Accès aux données numériques.
+2024-11-28 10:06:56,743 - INFO - Accès aux données numériques.
+2024-11-28 10:11:57,815 - INFO - Accès aux données numériques.
+2024-11-28 10:11:59,366 - INFO - Accès aux données numériques.
+2024-11-28 10:12:00,142 - INFO - Accès aux données numériques.
+2024-11-28 10:12:40,984 - INFO - Accès aux données numériques.
+2024-11-28 10:12:41,843 - INFO - Accès aux données numériques.
+2024-11-28 10:17:22,248 - INFO - Accès aux données numériques.
+2024-11-28 10:17:25,393 - ERROR - Il y a un probleme en la exportation du fichier.
+2024-11-28 10:17:29,793 - INFO - Accès aux données numériques.
+2024-11-28 10:17:43,692 - INFO - Accès aux données numériques.
+2024-11-28 10:17:45,332 - INFO - Accès aux données numériques.
+2024-11-28 10:17:46,416 - INFO - Accès aux données numériques.
+2024-11-28 10:18:10,643 - INFO - Fichier 'titanic.csv' chargé avec succès.
+2024-11-28 10:18:13,684 - INFO - Accès aux données numériques.
+2024-11-28 10:18:14,425 - INFO - Accès aux données numériques.
+2024-11-28 10:18:15,032 - INFO - Accès aux données numériques.
+2024-11-28 10:18:15,925 - ERROR - Il y a un probleme en la exportation du fichier.

@@ -9,11 +9,22 @@ import logging
 st.subheader("Graphiques de data frame")
 # Charger les données Iris
 
+def init_graphique():
+    if 'data' in st.session_state and st.session_state.data is not None:
+        data = st.session_state.data
+        logging.info("Accès aux données numériques.")
+        st.subheader("Analyse avec de graphiques")
+ # Afficher les 5 premières lignes des données numériques
+    else:
+        st.info("Aucune donnée chargée. Veuillez charger un fichier CSV dans la page principale.")
+
+init_graphique()
+
 if 'data_numeric' not in st.session_state:
-    st.session_state.data_numeric = app.data_numeric.copy()  # Récupérer les données numériques
+    st.session_state.data_numeric = app.data_numeric # Récupérer les données numériques
 
 if 'data_non_numeric' not in st.session_state:
-    st.session_state.data_non_numeric = app.data_non_numeric.copy()  # Récupérer les données non numériques
+    st.session_state.data_non_numeric = app.data_non_numeric  # Récupérer les données non numériques
 
 # Titre de l'application
 st.subheader("Filtrage des données non numerique avec Streamlit 📊")
